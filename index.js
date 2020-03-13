@@ -4,7 +4,7 @@ TextMessage = require('viber-bot').Message.Text,
 express = require('express');
 const app = express();
 
-const BOT_ACCOUNT_TOKEN = '4b33643514a7df15-37beb4934e21e413-293b9c05c7c640e7';
+const BOT_ACCOUNT_TOKEN = ';
 if (!BOT_ACCOUNT_TOKEN) {
   console.log('Could not find bot account token key.');
   return;
